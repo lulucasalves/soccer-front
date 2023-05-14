@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap');
+@import './components';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Mulish', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+
+    @media (max-width: 1340px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 840px) {
+        font-size: 87.5%;
+    }
+}

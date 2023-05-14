@@ -1,3 +1,5 @@
+import { HomeContent } from "~/components";
+
 export default function Home() {
-  return <p>hello world</p>;
+  return <HomeContent />;
 }

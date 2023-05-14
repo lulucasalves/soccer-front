@@ -1,0 +1,3074 @@
+{
+  "times": [
+    {
+      "clube": "Palmeiras",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 2, "value": 4 },
+          { "id": 5, "value": 2 },
+          { "id": 8, "value": 2 },
+          { "id": 9, "value": 2 },
+          { "id": 10, "value": 4 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 1 },
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 22 },
+          { "id": 2, "value": 28 },
+          { "id": 5, "value": 21 },
+          { "id": 8, "value": 18 },
+          { "id": 9, "value": 17 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 6 },
+          { "id": 2, "value": 10 },
+          { "id": 5, "value": 6 },
+          { "id": 8, "value": 7 },
+          { "id": 9, "value": 5 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Vermelho" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 8 },
+            { "id": 2, "value": 3 },
+            { "id": 5, "value": 10 },
+            { "id": 8, "value": 12 },
+            { "id": 9, "value": 12 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 3 },
+            { "id": 2, "value": 2 },
+            { "id": 5, "value": 2 },
+            { "id": 8, "value": 4 },
+            { "id": 9, "value": 4 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 3, "value": 5 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 3, "value": 0 },
+          { "id": 4, "value": 0 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 3, "value": 16 },
+          { "id": 4, "value": 14 },
+          { "id": 7, "value": 13 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 3, "value": 7 },
+          { "id": 4, "value": 8 },
+          { "id": 7, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Vermelho" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 3, "value": 15 },
+            { "id": 4, "value": 19 },
+            { "id": 7, "value": 11 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 3, "value": 4 },
+            { "id": 4, "value": 7 },
+            { "id": 7, "value": 3 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 2, "value": "Raphael Veiga" },
+        { "id": 4, "value": "Raphael Veiga" },
+        { "id": 10, "value": "Gustavo Gómez" }
+      ]
+    },
+    {
+      "clube": "Fluminense",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 5 },
+          { "id": 7, "value": 2 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 3 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 0 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 7 },
+          { "id": 3, "value": 23 },
+          { "id": 4, "value": 16 },
+          { "id": 7, "value": 14 },
+          { "id": 8, "value": 26 },
+          { "id": 10, "value": 22 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 9 },
+          { "id": 4, "value": 9 },
+          { "id": 7, "value": 4 },
+          { "id": 8, "value": 11 },
+          { "id": 10, "value": 8 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Vermelho" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 13 },
+            { "id": 3, "value": 8 },
+            { "id": 4, "value": 13 },
+            { "id": 7, "value": 10 },
+            { "id": 8, "value": 2 },
+            { "id": 10, "value": 4 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 2 },
+            { "id": 3, "value": 1 },
+            { "id": 4, "value": 7 },
+            { "id": 7, "value": 1 },
+            { "id": 8, "value": 2 },
+            { "id": 10, "value": 1 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Vermelho" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 2 },
+          { "id": 5, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 9, "value": 3 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 0 },
+          { "id": 5, "value": 4 },
+          { "id": 6, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 11 },
+          { "id": 5, "value": 12 },
+          { "id": 9, "value": 15 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 7 },
+          { "id": 5, "value": 3 },
+          { "id": 9, "value": 8 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 27 },
+            { "id": 5, "value": 20 },
+            { "id": 9, "value": 17 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 5 },
+            { "id": 5, "value": 18 },
+            { "id": 9, "value": 2 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 9, "value": "Germán Cano" }]
+    },
+    {
+      "clube": "Botafogo",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 3 },
+          { "id": 2, "value": 2 },
+          { "id": 3, "value": 0 },
+          { "id": 5, "value": 2 },
+          { "id": 7, "value": 4 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 5 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 2, "value": 0 },
+          { "id": 3, "value": 0 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 16 },
+          { "id": 2, "value": 22 },
+          { "id": 3, "value": 16 },
+          { "id": 7, "value": 24 },
+          { "id": 8, "value": 12 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 6 },
+          { "id": 2, "value": 7 },
+          { "id": 3, "value": 6 },
+          { "id": 7, "value": 9 },
+          { "id": 8, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Vermelho" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Vermelho" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 12 },
+            { "id": 2, "value": 9 },
+            { "id": 3, "value": 11 },
+            { "id": 7, "value": 6 },
+            { "id": 8, "value": 16 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 4 },
+            { "id": 2, "value": 1 },
+            { "id": 3, "value": 6 },
+            { "id": 7, "value": 2 },
+            { "id": 8, "value": 8 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 4, "value": 3 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 4, "value": 12 },
+          { "id": 6, "value": 5 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 4, "value": 6 },
+          { "id": 6, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 4, "value": 24 },
+            { "id": 6, "value": 13 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 4, "value": 13 },
+            { "id": 6, "value": 5 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 1, "value": "Tiquinho Soares" },
+        { "id": 4, "value": "Tiquinho Soares" },
+        { "id": 7, "value": "Tiquinho Soares" },
+        { "id": 7, "value": "Tchê Tchê" }
+      ]
+    },
+    {
+      "clube": "Paranaense",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 2 },
+          { "id": 5, "value": 2 },
+          { "id": 7, "value": 2 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 7, "value": 1 },
+          { "id": 8, "value": 0 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 10 },
+          { "id": 7, "value": 8 },
+          { "id": 8, "value": 11 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 7, "value": 4 },
+          { "id": 8, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Vermelho" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 14 },
+            { "id": 7, "value": 24 },
+            { "id": 8, "value": 16 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 4 },
+            { "id": 7, "value": 10 },
+            { "id": 8, "value": 2 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 2 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 14 },
+          { "id": 3, "value": 12 },
+          { "id": 4, "value": 8 },
+          { "id": 6, "value": 10 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 5 },
+          { "id": 3, "value": 5 },
+          { "id": 4, "value": 3 },
+          { "id": 6, "value": 1 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 12 },
+            { "id": 3, "value": 21 },
+            { "id": 4, "value": 16 },
+            { "id": 6, "value": 14 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 3 },
+            { "id": 3, "value": 8 },
+            { "id": 4, "value": 6 },
+            { "id": 6, "value": 4 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 7, "value": "David Terans" }]
+    },
+    {
+      "clube": "Cruzeiro",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Vermelho" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 2, "value": 2 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 1 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 2 },
+          { "id": 2, "value": 1 },
+          { "id": 4, "value": 0 },
+          { "id": 5, "value": 0 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 27 },
+          { "id": 2, "value": 10 },
+          { "id": 5, "value": 21 },
+          { "id": 10, "value": 16 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 5 },
+          { "id": 2, "value": 3 },
+          { "id": 5, "value": 6 },
+          { "id": 10, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Vermelho" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 11 },
+            { "id": 2, "value": 9 },
+            { "id": 5, "value": 11 },
+            { "id": 10, "value": 10 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 7 },
+            { "id": 2, "value": 4 },
+            { "id": 5, "value": 7 },
+            { "id": 10, "value": 4 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 3, "value": 3 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 3 },
+          { "id": 9, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 3, "value": 0 },
+          { "id": 6, "value": 2 },
+          { "id": 7, "value": 1 },
+          { "id": 8, "value": 2 },
+          { "id": 9, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 3, "value": 18 },
+          { "id": 6, "value": 8 },
+          { "id": 9, "value": 17 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 3, "value": 5 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 10 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 3, "value": "Vermelho" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Vermelho" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 3, "value": 12 },
+            { "id": 6, "value": 12 },
+            { "id": 9, "value": 8 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 3, "value": 5 },
+            { "id": 6, "value": 7 },
+            { "id": 9, "value": 5 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 1, "value": "Bruno Rodrigues" }]
+    },
+    {
+      "clube": "Fortaleza",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Vermelho" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 6 },
+          { "id": 4, "value": 4 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 6 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 2 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 16 },
+          { "id": 3, "value": 21 },
+          { "id": 4, "value": 20 },
+          { "id": 8, "value": 24 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 11 },
+          { "id": 4, "value": 18 },
+          { "id": 8, "value": 6 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Vermelho" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 13 },
+            { "id": 3, "value": 10 },
+            { "id": 4, "value": 12 },
+            { "id": 8, "value": 11 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 1 },
+            { "id": 3, "value": 4 },
+            { "id": 4, "value": 3 },
+            { "id": 8, "value": 6 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Vermelho" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 7, "value": 2 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 0 },
+          { "id": 6, "value": 0 },
+          { "id": 7, "value": 0 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 16 },
+          { "id": 6, "value": 16 },
+          { "id": 7, "value": 5 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 2 },
+          { "id": 6, "value": 9 },
+          { "id": 7, "value": 2 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 21 },
+            { "id": 6, "value": 18 },
+            { "id": 7, "value": 9 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 8 },
+            { "id": 6, "value": 7 },
+            { "id": 7, "value": 3 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 3, "value": "Yago Pikachu" },
+        { "id": 3, "value": "Thiago Galhardo" },
+        { "id": 10, "value": "Juan Lucero" }
+      ]
+    },
+    {
+      "clube": "São Paulo",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 7, "value": 2 },
+          { "id": 9, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 0 },
+          { "id": 6, "value": 0 },
+          { "id": 7, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 7 },
+          { "id": 6, "value": 17 },
+          { "id": 7, "value": 23 },
+          { "id": 9, "value": 20 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 6, "value": 6 },
+          { "id": 7, "value": 9 },
+          { "id": 9, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 15 },
+            { "id": 6, "value": 22 },
+            { "id": 7, "value": 8 },
+            { "id": 9, "value": 12 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 4 },
+            { "id": 6, "value": 8 },
+            { "id": 7, "value": 1 },
+            { "id": 9, "value": 1 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Vermelho" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 5, "value": 0 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 13 },
+          { "id": 3, "value": 12 },
+          { "id": 4, "value": 23 },
+          { "id": 8, "value": 16 },
+          { "id": 10, "value": 11 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 6 },
+          { "id": 8, "value": 8 },
+          { "id": 10, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Vermelho" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 16 },
+            { "id": 3, "value": 7 },
+            { "id": 4, "value": 16 },
+            { "id": 8, "value": 12 },
+            { "id": 10, "value": 19 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 2 },
+            { "id": 3, "value": 1 },
+            { "id": 4, "value": 5 },
+            { "id": 8, "value": 3 },
+            { "id": 10, "value": 5 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 2, "value": "Luciano" }]
+    },
+    {
+      "clube": "Atl. Mineiro",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 2 },
+          { "id": 9, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 4, "value": 0 },
+          { "id": 5, "value": 1 },
+          { "id": 9, "value": 2 },
+          { "id": 10, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 1 },
+          { "id": 4, "value": 31 },
+          { "id": 5, "value": 16 },
+          { "id": 9, "value": 26 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 1 },
+          { "id": 4, "value": 9 },
+          { "id": 5, "value": 6 },
+          { "id": 9, "value": 10 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 1 },
+            { "id": 4, "value": 1 },
+            { "id": 5, "value": 8 },
+            { "id": 9, "value": 7 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 1 },
+            { "id": 4, "value": 0 },
+            { "id": 5, "value": 3 },
+            { "id": 9, "value": 3 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Vermelho" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 4 },
+          { "id": 3, "value": 0 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 0 },
+          { "id": 3, "value": 2 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 8 },
+          { "id": 3, "value": 9 },
+          { "id": 7, "value": 15 },
+          { "id": 8, "value": 24 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 7 },
+          { "id": 3, "value": 1 },
+          { "id": 7, "value": 5 },
+          { "id": 8, "value": 10 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 7 },
+            { "id": 3, "value": 22 },
+            { "id": 7, "value": 12 },
+            { "id": 8, "value": 8 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 1 },
+            { "id": 3, "value": 7 },
+            { "id": 7, "value": 2 },
+            { "id": 8, "value": 4 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 2, "value": "Hulk" },
+        { "id": 4, "value": "Hulk" },
+        { "id": 10, "value": "Hulk" }
+      ]
+    },
+    {
+      "clube": "Santos",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 3 },
+          { "id": 4, "value": 3 },
+          { "id": 5, "value": 1 },
+          { "id": 6, "value": 0 },
+          { "id": 7, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 0 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 0 },
+          { "id": 6, "value": 0 },
+          { "id": 7, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 14 },
+          { "id": 4, "value": 12 },
+          { "id": 5, "value": 9 },
+          { "id": 6, "value": 12 },
+          { "id": 7, "value": 17 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 9 },
+          { "id": 4, "value": 6 },
+          { "id": 5, "value": 5 },
+          { "id": 6, "value": 2 },
+          { "id": 7, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 17 },
+            { "id": 4, "value": 19 },
+            { "id": 5, "value": 21 },
+            { "id": 6, "value": 15 },
+            { "id": 7, "value": 5 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 3 },
+            { "id": 4, "value": 8 },
+            { "id": 5, "value": 5 },
+            { "id": 6, "value": 5 },
+            { "id": 7, "value": 0 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Vermelho" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 1 },
+          { "id": 3, "value": 0 },
+          { "id": 8, "value": 0 },
+          { "id": 9, "value": 2 },
+          { "id": 10, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 2 },
+          { "id": 3, "value": 1 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 0 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 9 },
+          { "id": 3, "value": 6 },
+          { "id": 8, "value": 16 },
+          { "id": 9, "value": 7 },
+          { "id": 10, "value": 15 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 3, "value": 2 },
+          { "id": 8, "value": 4 },
+          { "id": 9, "value": 4 },
+          { "id": 10, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 10, "value": "Vermelho" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 10 },
+            { "id": 3, "value": 14 },
+            { "id": 8, "value": 17 },
+            { "id": 9, "value": 15 },
+            { "id": 10, "value": 7 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 3 },
+            { "id": 3, "value": 2 },
+            { "id": 8, "value": 6 },
+            { "id": 9, "value": 3 },
+            { "id": 10, "value": 3 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 4, "value": "Marcos Leonardo" },
+        { "id": 9, "value": "Marcos Leonardo" }
+      ]
+    },
+    {
+      "clube": "Grêmio",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Vermelho" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 1 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 0 },
+          { "id": 8, "value": 0 },
+          { "id": 10, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 11 },
+          { "id": 6, "value": 17 },
+          { "id": 8, "value": 17 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 3 },
+          { "id": 6, "value": 6 },
+          { "id": 8, "value": 6 },
+          { "id": 10, "value": 2 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Vermelho" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 21 },
+            { "id": 6, "value": 16 },
+            { "id": 8, "value": 12 },
+            { "id": 10, "value": 1 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 7 },
+            { "id": 6, "value": 4 },
+            { "id": 8, "value": 3 },
+            { "id": 10, "value": 1 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 2 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 2 },
+          { "id": 9, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 4 },
+          { "id": 3, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 9, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 3 },
+          { "id": 3, "value": 12 },
+          { "id": 5, "value": 11 },
+          { "id": 9, "value": 20 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 6 },
+          { "id": 5, "value": 7 },
+          { "id": 9, "value": 9 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Vermelho" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Vermelho" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 28 },
+            { "id": 3, "value": 15 },
+            { "id": 5, "value": 21 },
+            { "id": 9, "value": 4 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 10 },
+            { "id": 3, "value": 4 },
+            { "id": 5, "value": 6 },
+            { "id": 9, "value": 1 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 2, "value": "Franco Cristaldo" },
+        { "id": 6, "value": "Luis Suárez" },
+        { "id": 8, "value": "Luis Suárez" }
+      ]
+    },
+    {
+      "clube": "Internacional",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 0 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 1 },
+          { "id": 7, "value": 2 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 2 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 1 },
+          { "id": 8, "value": 0 },
+          { "id": 10, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 12 },
+          { "id": 4, "value": 21 },
+          { "id": 5, "value": 18 },
+          { "id": 7, "value": 16 },
+          { "id": 8, "value": 24 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 10 },
+          { "id": 5, "value": 8 },
+          { "id": 7, "value": 4 },
+          { "id": 8, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 14 },
+            { "id": 4, "value": 11 },
+            { "id": 5, "value": 15 },
+            { "id": 7, "value": 16 },
+            { "id": 8, "value": 3 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 5 },
+            { "id": 4, "value": 2 },
+            { "id": 5, "value": 1 },
+            { "id": 7, "value": 4 },
+            { "id": 8, "value": 1 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 0 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 2 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 15 },
+          { "id": 9, "value": 11 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 4 },
+          { "id": 9, "value": 6 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 1 },
+            { "id": 3, "value": 7 },
+            { "id": 9, "value": 24 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 1 },
+            { "id": 3, "value": 4 },
+            { "id": 9, "value": 6 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 6, "value": "Alan Patrick" }]
+    },
+    {
+      "clube": "Flamengo",
+      "casa": {
+        "cartoes": [
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 2 },
+          { "id": 5, "value": 2 },
+          { "id": 6, "value": 8 },
+          { "id": 8, "value": 2 },
+          { "id": 9, "value": 3 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 0 },
+          { "id": 5, "value": 3 },
+          { "id": 6, "value": 2 },
+          { "id": 8, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 23 },
+          { "id": 5, "value": 24 },
+          { "id": 8, "value": 17 },
+          { "id": 9, "value": 15 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 5 },
+          { "id": 5, "value": 13 },
+          { "id": 8, "value": 6 },
+          { "id": 9, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Vermelho" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 14 },
+            { "id": 5, "value": 12 },
+            { "id": 8, "value": 3 },
+            { "id": 9, "value": 10 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 6 },
+            { "id": 5, "value": 6 },
+            { "id": 8, "value": 0 },
+            { "id": 9, "value": 3 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 7, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 3 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 1 },
+          { "id": 7, "value": 1 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 2 },
+          { "id": 4, "value": 1 },
+          { "id": 7, "value": 2 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 14 },
+          { "id": 3, "value": 14 },
+          { "id": 4, "value": 11 },
+          { "id": 7, "value": 16 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 5 },
+          { "id": 3, "value": 4 },
+          { "id": 4, "value": 1 },
+          { "id": 7, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Vermelho" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Vermelho" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Vermelho" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 20 },
+            { "id": 3, "value": 10 },
+            { "id": 4, "value": 9 },
+            { "id": 7, "value": 16 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 6 },
+            { "id": 3, "value": 4 },
+            { "id": 4, "value": 3 },
+            { "id": 7, "value": 4 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 1, "value": "Gabriel Barbosa" },
+        { "id": 2, "value": "Pedro" },
+        { "id": 3, "value": "Gabriel Barbosa" },
+        { "id": 6, "value": "Gabriel Barbosa" },
+        { "id": 9, "value": "Gabriel Barbosa" }
+      ]
+    },
+    {
+      "clube": "Bahia",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Vermelho" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Vermelho" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 3 },
+          { "id": 5, "value": 4 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 3 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 3 },
+          { "id": 3, "value": 1 },
+          { "id": 5, "value": 0 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 20 },
+          { "id": 3, "value": 15 },
+          { "id": 6, "value": 13 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 6 },
+          { "id": 3, "value": 5 },
+          { "id": 6, "value": 5 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 14 },
+            { "id": 3, "value": 10 },
+            { "id": 6, "value": 5 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 5 },
+            { "id": 3, "value": 4 },
+            { "id": 6, "value": 3 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 7, "value": 1 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 0 },
+          { "id": 7, "value": 2 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 17 },
+          { "id": 4, "value": 12 },
+          { "id": 7, "value": 9 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 6 },
+          { "id": 7, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 14 },
+            { "id": 4, "value": 15 },
+            { "id": 7, "value": 13 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 9 },
+            { "id": 4, "value": 6 },
+            { "id": 7, "value": 7 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 5, "value": "Vítor Jacaré" },
+        { "id": 9, "value": "Vítor Jacaré" }
+      ]
+    },
+    {
+      "clube": "Vasco",
+      "casa": {
+        "cartoes": [
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 3, "value": 0 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 9, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 7, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 3, "value": 15 },
+          { "id": 4, "value": 11 },
+          { "id": 6, "value": 18 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 3, "value": 6 },
+          { "id": 4, "value": 3 },
+          { "id": 6, "value": 6 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Vermelho" }
+          ],
+          "chutes": [
+            { "id": 3, "value": 12 },
+            { "id": 4, "value": 13 },
+            { "id": 6, "value": 16 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 3, "value": 6 },
+            { "id": 4, "value": 7 },
+            { "id": 6, "value": 8 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 2 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 1 },
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 8, "value": 3 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 7 },
+          { "id": 2, "value": 8 },
+          { "id": 5, "value": 7 },
+          { "id": 8, "value": 13 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 2 },
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 3 },
+          { "id": 8, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 10 },
+            { "id": 2, "value": 23 },
+            { "id": 5, "value": 26 },
+            { "id": 8, "value": 17 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 6 },
+            { "id": 2, "value": 9 },
+            { "id": 5, "value": 10 },
+            { "id": 8, "value": 8 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": []
+    },
+    {
+      "clube": "RB Bragantino",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 5, "value": "Vermelho" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Vermelho" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 2 },
+          { "id": 4, "value": 0 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 5 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 2 },
+          { "id": 4, "value": 0 },
+          { "id": 5, "value": 3 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 1 },
+          { "id": 10, "value": 3 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 20 },
+          { "id": 4, "value": 14 },
+          { "id": 5, "value": 12 },
+          { "id": 7, "value": 23 },
+          { "id": 8, "value": 13 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 9 },
+          { "id": 4, "value": 4 },
+          { "id": 5, "value": 5 },
+          { "id": 7, "value": 12 },
+          { "id": 8, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 10 },
+            { "id": 4, "value": 9 },
+            { "id": 5, "value": 18 },
+            { "id": 7, "value": 1 },
+            { "id": 8, "value": 9 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 3 },
+            { "id": 4, "value": 3 },
+            { "id": 5, "value": 5 },
+            { "id": 7, "value": 0 },
+            { "id": 8, "value": 3 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 3 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 4 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 3 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 8 },
+          { "id": 3, "value": 21 },
+          { "id": 6, "value": 7 },
+          { "id": 9, "value": 30 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 3 },
+          { "id": 3, "value": 7 },
+          { "id": 6, "value": 2 },
+          { "id": 9, "value": 11 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 22 },
+            { "id": 3, "value": 11 },
+            { "id": 6, "value": 14 },
+            { "id": 9, "value": 9 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 6 },
+            { "id": 3, "value": 3 },
+            { "id": 6, "value": 3 },
+            { "id": 9, "value": 3 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 7, "value": "Eduardo Sasha" }]
+    },
+    {
+      "clube": "Corinthians",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 1 },
+          { "id": 3, "value": 1 },
+          { "id": 5, "value": 2 },
+          { "id": 7, "value": 0 },
+          { "id": 8, "value": 2 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 1 },
+          { "id": 3, "value": 2 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 1 },
+          { "id": 8, "value": 1 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 21 },
+          { "id": 3, "value": 18 },
+          { "id": 7, "value": 18 },
+          { "id": 8, "value": 12 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 8 },
+          { "id": 3, "value": 6 },
+          { "id": 7, "value": 2 },
+          { "id": 8, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 16 },
+            { "id": 3, "value": 10 },
+            { "id": 7, "value": 12 },
+            { "id": 8, "value": 8 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 2 },
+            { "id": 3, "value": 4 },
+            { "id": 7, "value": 2 },
+            { "id": 8, "value": 2 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 1 },
+          { "id": 9, "value": 0 },
+          { "id": 10, "value": 3 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 3 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 9, "value": 2 },
+          { "id": 10, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 12 },
+          { "id": 4, "value": 10 },
+          { "id": 6, "value": 10 },
+          { "id": 10, "value": 12 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 4 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 2 },
+          { "id": 10, "value": 6 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 16 },
+            { "id": 4, "value": 21 },
+            { "id": 6, "value": 18 },
+            { "id": 10, "value": 19 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 6 },
+            { "id": 4, "value": 6 },
+            { "id": 6, "value": 7 },
+            { "id": 10, "value": 0 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": []
+    },
+    {
+      "clube": "Cuiabá",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 5, "value": 1 },
+          { "id": 7, "value": 1 },
+          { "id": 9, "value": 5 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 4 },
+          { "id": 4, "value": 2 },
+          { "id": 5, "value": 1 },
+          { "id": 7, "value": 0 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 7 },
+          { "id": 4, "value": 15 },
+          { "id": 5, "value": 14 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 1 },
+          { "id": 4, "value": 4 },
+          { "id": 5, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 8 },
+            { "id": 4, "value": 12 },
+            { "id": 5, "value": 7 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 7 },
+            { "id": 4, "value": 6 },
+            { "id": 5, "value": 2 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Vermelho" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Vermelho" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Vermelho" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 2 },
+          { "id": 6, "value": 1 },
+          { "id": 8, "value": 2 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 1 },
+          { "id": 6, "value": 2 },
+          { "id": 8, "value": 0 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 13 },
+          { "id": 3, "value": 9 },
+          { "id": 6, "value": 12 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 5 },
+          { "id": 6, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Vermelho" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 7 },
+            { "id": 3, "value": 15 },
+            { "id": 6, "value": 17 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 2 },
+            { "id": 3, "value": 4 },
+            { "id": 6, "value": 5 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": []
+    },
+    {
+      "clube": "Goiás",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Vermelho" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Vermelho" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Vermelho" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 0 },
+          { "id": 5, "value": 3 },
+          { "id": 8, "value": 3 },
+          { "id": 9, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 5 },
+          { "id": 5, "value": 1 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 15 },
+          { "id": 5, "value": 18 },
+          { "id": 9, "value": 17 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 5, "value": 7 },
+          { "id": 9, "value": 4 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 8, "value": "Vermelho" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 16 },
+            { "id": 5, "value": 10 },
+            { "id": 9, "value": 7 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 7 },
+            { "id": 5, "value": 2 },
+            { "id": 9, "value": 0 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Vermelho" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 0 },
+          { "id": 3, "value": 2 },
+          { "id": 4, "value": 0 },
+          { "id": 6, "value": 2 },
+          { "id": 7, "value": 0 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 0 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 2 },
+          { "id": 7, "value": 2 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 14 },
+          { "id": 3, "value": 10 },
+          { "id": 4, "value": 15 },
+          { "id": 6, "value": 8 },
+          { "id": 7, "value": 16 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 6 },
+          { "id": 3, "value": 3 },
+          { "id": 4, "value": 1 },
+          { "id": 6, "value": 4 },
+          { "id": 7, "value": 2 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Vermelho" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 23 },
+            { "id": 3, "value": 13 },
+            { "id": 4, "value": 18 },
+            { "id": 6, "value": 15 },
+            { "id": 7, "value": 11 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 5 },
+            { "id": 3, "value": 4 },
+            { "id": 4, "value": 8 },
+            { "id": 6, "value": 7 },
+            { "id": 7, "value": 3 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 3, "value": "Vinícius" },
+        { "id": 3, "value": "Matheus Peixoto" },
+        { "id": 8, "value": "Vinícius" }
+      ]
+    },
+    {
+      "clube": "Coritiba",
+      "casa": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 1 },
+          { "id": 5, "value": 0 },
+          { "id": 7, "value": 3 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 1 },
+          { "id": 3, "value": 1 },
+          { "id": 5, "value": 3 },
+          { "id": 7, "value": 3 },
+          { "id": 8, "value": 1 },
+          { "id": 9, "value": 0 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 10 },
+          { "id": 3, "value": 16 },
+          { "id": 5, "value": 18 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 6 },
+          { "id": 3, "value": 5 },
+          { "id": 5, "value": 7 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 7 },
+            { "id": 3, "value": 23 },
+            { "id": 5, "value": 16 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 2 },
+            { "id": 3, "value": 6 },
+            { "id": 5, "value": 9 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 1 },
+          { "id": 4, "value": 0 },
+          { "id": 6, "value": 0 },
+          { "id": 10, "value": 1 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 3 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 3 },
+          { "id": 10, "value": 3 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 10 },
+          { "id": 6, "value": 10 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 6, "value": 3 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 15 },
+            { "id": 6, "value": 15 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 5 },
+            { "id": 6, "value": 7 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [{ "id": 7, "value": "Alef Manga" }]
+    },
+    {
+      "clube": "América MG",
+      "casa": {
+        "cartoes": [
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Amarelo" },
+          { "id": 2, "value": "Vermelho" },
+          { "id": 5, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" },
+          { "id": 8, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 2, "value": 1 },
+          { "id": 5, "value": 5 },
+          { "id": 8, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 2, "value": 2 },
+          { "id": 5, "value": 0 },
+          { "id": 8, "value": 3 }
+        ],
+        "chutes": [
+          { "id": 2, "value": 15 },
+          { "id": 8, "value": 17 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 2, "value": 4 },
+          { "id": 8, "value": 2 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 2, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 5, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" },
+            { "id": 8, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 2, "value": 9 },
+            { "id": 8, "value": 15 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 2, "value": 5 },
+            { "id": 8, "value": 8 }
+          ]
+        }
+      },
+      "fora": {
+        "cartoes": [
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 1, "value": "Amarelo" },
+          { "id": 3, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 4, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 6, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 7, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 9, "value": "Vermelho" },
+          { "id": 9, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Vermelho" },
+          { "id": 10, "value": "Amarelo" },
+          { "id": 10, "value": "Amarelo" }
+        ],
+        "gols_feitos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 2 },
+          { "id": 6, "value": 0 },
+          { "id": 7, "value": 1 },
+          { "id": 9, "value": 2 },
+          { "id": 10, "value": 0 }
+        ],
+        "gols_sofridos": [
+          { "id": 1, "value": 2 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 3 },
+          { "id": 6, "value": 3 },
+          { "id": 7, "value": 2 },
+          { "id": 9, "value": 1 },
+          { "id": 10, "value": 2 }
+        ],
+        "chutes": [
+          { "id": 1, "value": 10 },
+          { "id": 3, "value": 13 },
+          { "id": 4, "value": 19 },
+          { "id": 6, "value": 22 },
+          { "id": 7, "value": 7 },
+          { "id": 10, "value": 15 }
+        ],
+        "chutes_ao_gol": [
+          { "id": 1, "value": 3 },
+          { "id": 3, "value": 1 },
+          { "id": 4, "value": 8 },
+          { "id": 6, "value": 8 },
+          { "id": 7, "value": 4 },
+          { "id": 10, "value": 1 }
+        ],
+        "adversario": {
+          "cartoes": [
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 1, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 3, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Amarelo" },
+            { "id": 4, "value": "Vermelho" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 6, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 7, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 9, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Amarelo" },
+            { "id": 10, "value": "Vermelho" },
+            { "id": 10, "value": "Amarelo" }
+          ],
+          "chutes": [
+            { "id": 1, "value": 20 },
+            { "id": 3, "value": 18 },
+            { "id": 4, "value": 12 },
+            { "id": 6, "value": 17 },
+            { "id": 7, "value": 16 },
+            { "id": 10, "value": 6 }
+          ],
+          "chutes_ao_gol": [
+            { "id": 1, "value": 9 },
+            { "id": 3, "value": 8 },
+            { "id": 4, "value": 6 },
+            { "id": 6, "value": 6 },
+            { "id": 7, "value": 5 },
+            { "id": 10, "value": 6 }
+          ]
+        }
+      },
+      "ultimos_batedores_de_penalti": [
+        { "id": 1, "value": "Luo Guofu" },
+        { "id": 1, "value": "Luo Guofu" }
+      ]
+    }
+  ],
+  "proximos_jogos": [
+    { "casa": " Bahia ", "fora": " Flamengo " },
+    { "casa": " Fluminense ", "fora": " Cuiabá " },
+    { "casa": " Palmeiras ", "fora": " RB Bragantino " },
+    { "casa": " Atlético-MG ", "fora": " Internacional " },
+    { "casa": " Corinthians ", "fora": " São Paulo " },
+    { "casa": " Grêmio ", "fora": " Fortaleza " },
+    { "casa": " Vasco da Gama ", "fora": " Santos " },
+    { "casa": " América-MG ", "fora": " Cruzeiro " },
+    { "casa": " Athletico Paranaense ", "fora": " Coritiba " },
+    { "casa": " Goiás ", "fora": " Botafogo " }
+  ]
+}
