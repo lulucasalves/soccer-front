@@ -1,4 +1,4 @@
-import { Filter, Menu, Table } from "~/components";
+import { Filter, Matches, Menu, Table } from "~/components";
 
 export function HomeContent() {
   return (
@@ -7,6 +7,7 @@ export function HomeContent() {
       <div className="content">
         <Filter />
         <Table />
+        <Matches />
       </div>
     </section>
   );
