@@ -12,6 +12,11 @@ export function Matches() {
 
   return (
     <div className="teams">
+      <h2>
+        Análise e previsões baseado em último{numberGames > 1 ? "s" : ""}{" "}
+        {numberGames > 1 ? numberGames : ""} jogo
+        {numberGames > 1 ? "s" : ""}
+      </h2>
       {proximos_jogos.length &&
         proximos_jogos.map((teams, key) => {
           const teamsfiltered = times.filter((val) => {
@@ -166,7 +171,7 @@ export function Matches() {
                         mediaChutesC >= mediaChutesF2 ? "positive" : "negative"
                       }
                     >
-                      Média chutes ao gol: {mediaChutesC.toFixed(1)}
+                      Média chutes ao gol em casa: {mediaChutesC.toFixed(1)}
                     </p>
                   </div>
                 </div>
@@ -175,7 +180,11 @@ export function Matches() {
                 <h2>
                   {Math.round(resultC)}x{Math.round(resultF)}
                 </h2>
-                <p className={sgDiff >= 9.5 ? "positive" : "negative"}>
+                <p
+                  className={
+                    sgDiff >= 1.9 * numberGames ? "positive" : "negative"
+                  }
+                >
                   {sgcasav >= sgforav ? teams.casa : teams.fora}{" "}
                   {Math.round(sgDiff)}+ sg
                 </p>
@@ -187,7 +196,7 @@ export function Matches() {
                   {penaltisNumeros >= penaltisNumeros2
                     ? teams.casa
                     : teams.fora}{" "}
-                  Chance penalti: {penaltyDiff.toFixed(1)}
+                  Chance penalti: {parseInt(penaltyDiff * 100)}%
                 </p>
               </div>
               <div className="card">
@@ -260,7 +269,8 @@ export function Matches() {
                         mediaChutesC <= mediaChutesF2 ? "positive" : "negative"
                       }
                     >
-                      Média chutes ao gol: {mediaChutesF2.toFixed(1)}
+                      Média chutes ao gol fora de casa:{" "}
+                      {mediaChutesF2.toFixed(1)}
                     </p>
                   </div>
                 </div>

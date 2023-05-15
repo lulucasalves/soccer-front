@@ -47,7 +47,7 @@ export function Filter() {
       >
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((val) => (
           <option key={val} value={val}>
-            {val}
+           Dados dos Últimos {val}
           </option>
         ))}
       </select>
@@ -60,7 +60,7 @@ export function Filter() {
       >
         {filtersDisponible.map((val) => (
           <option key={val} value={val}>
-            {val}
+           Ordenar por {val}
           </option>
         ))}
       </select>
