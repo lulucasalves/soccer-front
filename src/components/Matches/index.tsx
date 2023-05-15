@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import * as data from "~/data/games.json";
 import { getMatchs } from "~/features/getMatchs";
@@ -7,6 +8,7 @@ import { IRootState } from "~/redux";
 export function Matches() {
   const { times, proximos_jogos } = data;
   const { numberGames } = useSelector((auth: IRootState) => auth.filters);
+  const [classification, setClassification] = useState(0);
 
   return (
     <div className="teams">
@@ -35,7 +37,8 @@ export function Matches() {
             mediaGolsFeitosC,
             mediaGolsSofridosC,
             mediaChutesC,
-          } = returnAllStats(teamsfiltered[0], 5);
+            penaltisNumeros,
+          } = returnAllStats(teamsfiltered[0], numberGames);
 
           const {
             sgTotal: sgTotal2,
@@ -46,26 +49,50 @@ export function Matches() {
             mediaGolsFeitosF: mediaGolsFeitosF2,
             mediaGolsSofridosF: mediaGolsSofridosF2,
             mediaChutesF: mediaChutesF2,
-          } = returnAllStats(teamsfiltered2[0], 5);
-
-          const generalResultC =
-            (mediaGolsFeitos + mediaGolsSofridos2) / 2 - 0.1;
-
-          const generalResultF =
-            (mediaGolsSofridos + mediaGolsFeitos2) / 2 - 0.1;
+            penaltisNumeros: penaltisNumeros2,
+          } = returnAllStats(teamsfiltered2[0], numberGames);
 
           const resultC =
-            ((mediaGolsFeitosC + mediaGolsSofridosF2) / 2 + generalResultC) /
-              2 -
-            0.1;
-          const resultF =
-            ((mediaGolsSofridosC + mediaGolsFeitosF2) / 2 + generalResultF) /
-              2 -
+            (mediaGolsFeitos +
+              mediaGolsSofridos2 +
+              mediaGolsFeitosC +
+              mediaGolsSofridosF2) /
+              4 -
             0.1;
 
-          const sgTeam = sgTotal >= sgTotal2 ? teams.casa : teams.fora;
-          const sgDiff =
-            sgTotal >= sgTotal2 ? sgTotal - sgTotal2 : sgTotal2 - sgTotal;
+          const resultF =
+            (mediaGolsFeitos2 +
+              mediaGolsSofridos +
+              mediaGolsFeitosF2 +
+              mediaGolsSofridosC) /
+              4 -
+            0.1;
+
+          const sgcasav = (sgTotal + sgTotalC - sgTotal2 - sgTotalF2) / 2;
+          const sgforav = (sgTotal2 + sgTotalF2 - sgTotal - sgTotalC) / 2;
+
+          const sgDiff = sgcasav >= sgforav ? sgcasav : sgforav;
+
+          const goalChancev =
+            (mediaGolsSofridos +
+              mediaGolsFeitos2 +
+              mediaGolsFeitosF2 +
+              mediaGolsSofridosC) /
+            4;
+          const goalChancev2 =
+            (mediaGolsSofridos2 +
+              mediaGolsFeitos +
+              mediaGolsFeitosC +
+              mediaGolsFeitosF2) /
+            4;
+
+          const goalDiff =
+            goalChancev <= goalChancev2 ? goalChancev : goalChancev2;
+
+          const penaltyDiff =
+            penaltisNumeros >= penaltisNumeros2
+              ? penaltisNumeros
+              : penaltisNumeros2;
 
           return (
             <div key={key} className="cards">
@@ -148,8 +175,19 @@ export function Matches() {
                 <h2>
                   {Math.round(resultC)}x{Math.round(resultF)}
                 </h2>
-                <p className={sgDiff >= 10 ? "positive" : "negative"}>
-                  {sgTeam} {sgDiff}+ sg
+                <p className={sgDiff >= 9.5 ? "positive" : "negative"}>
+                  {sgcasav >= sgforav ? teams.casa : teams.fora}{" "}
+                  {Math.round(sgDiff)}+ sg
+                </p>
+                <p className={goalDiff < 1 ? "positive" : "negative"}>
+                  {goalChancev <= goalChancev2 ? teams.casa : teams.fora} Chance
+                  de levar gol: {goalDiff.toFixed(1)}
+                </p>
+                <p className={penaltyDiff >= 0.4 ? "positive" : "negative"}>
+                  {penaltisNumeros >= penaltisNumeros2
+                    ? teams.casa
+                    : teams.fora}{" "}
+                  Chance penalti: {penaltyDiff.toFixed(1)}
                 </p>
               </div>
               <div className="card">
