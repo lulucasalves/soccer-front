@@ -196,7 +196,7 @@ export function Matches() {
                   {penaltisNumeros >= penaltisNumeros2
                     ? teams.casa
                     : teams.fora}{" "}
-                  Chance penalti: {parseInt(penaltyDiff * 100)}%
+                  Chance penalti: {parseInt(String(penaltyDiff * 100))}%
                 </p>
               </div>
               <div className="card">
