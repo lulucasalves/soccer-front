@@ -36,9 +36,48 @@
 
         .card {
 
-            .nome {
-                font-size: 24px;
-                font-weight: 500;
+            .last-games {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-bottom: 10px;
+
+                p {
+                    line-height: -1.5;
+                    color: white;
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    border-radius: 50px;
+                    background-color: rgb(169, 169, 169);
+                }
+
+                .green {
+                    background-color: rgb(0, 215, 0)
+                }
+
+                .red {
+                    background-color: rgb(224, 0, 0)
+                }
+
+                .none {
+                    background-color: transparent;
+                    color: black;
+                }
+            }
+
+            .team {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 10px;
+
+                .nome {
+                    font-size: 24px;
+                    font-weight: 500;
+                }
             }
 
             .positive {
@@ -47,14 +86,6 @@
 
             .negative {
                 color: rgb(199, 0, 0)
-            }
-
-            .contentMatches {
-                .double {
-                    // display: flex;
-                    // align-items: center;
-                    // gap: 20px;
-                }
             }
         }
     }

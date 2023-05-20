@@ -17,6 +17,12 @@
     td {
         font-weight: 400;
         padding: 10px 20px;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
     }
 
     .positive {

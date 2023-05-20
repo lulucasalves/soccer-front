@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useSelector } from "react-redux";
 import * as data from "~/data/games.json";
 import { sortTeams } from "~/features/sortTeams";
@@ -147,13 +148,19 @@ export function Table() {
                 mediaChutesC,
                 mediaChutesF,
                 clube,
+                escudo,
                 penaltisNumeros,
               } = returnAllStats(val, numberGames);
 
               return (
                 <tr key={clube}>
                   <td>{i + 1}º</td>
-                  <td>{clube}</td>
+                  <td>
+                    <div>
+                      <Image alt="" src={escudo} width={20} height={20} />
+                      <p>{clube}</p>
+                    </div>
+                  </td>
                   <td className={sgTotal > -1 ? "positive" : "negative"}>
                     {sgTotal}
                   </td>

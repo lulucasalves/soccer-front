@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import * as data from "~/data/games.json";
@@ -13,7 +14,7 @@ export function Matches() {
   return (
     <div className="teams">
       <h2>
-        Análise e previsões baseado em último{numberGames > 1 ? "s" : ""}{" "}
+        Análise e previsões baseado em último{numberGames > 1 ? "s " : " "}
         {numberGames > 1 ? numberGames : ""} jogo
         {numberGames > 1 ? "s" : ""}
       </h2>
@@ -43,6 +44,8 @@ export function Matches() {
             mediaGolsSofridosC,
             mediaChutesC,
             penaltisNumeros,
+            escudo,
+            lastGames,
           } = returnAllStats(teamsfiltered[0], numberGames);
 
           const {
@@ -55,6 +58,8 @@ export function Matches() {
             mediaGolsSofridosF: mediaGolsSofridosF2,
             mediaChutesF: mediaChutesF2,
             penaltisNumeros: penaltisNumeros2,
+            escudo: escudo2,
+            lastGames: lastGames2,
           } = returnAllStats(teamsfiltered2[0], numberGames);
 
           const resultC =
@@ -99,10 +104,50 @@ export function Matches() {
               ? penaltisNumeros
               : penaltisNumeros2;
 
+          function indentifyGamesStatus(lastGames: any, id: number) {
+            const gameS = lastGames.filter(
+              (val: any) => val.id === id && val.status === "sofrido"
+            )[0];
+            const gameF = lastGames.filter(
+              (val: any) => val.id === id && val.status === "feito"
+            )[0];
+
+            if (gameS.value > gameF.value) {
+              return { className: "red", status: "D" };
+            } else if (gameS.value < gameF.value) {
+              return { className: "green", status: "V" };
+            }
+
+            return { className: "", status: "E" };
+          }
+
           return (
             <div key={key} className="cards">
               <div className="card">
-                <p className="nome">{getMatchs(teams.casa)}</p>
+                <div className="team">
+                  {escudo ? (
+                    <Image alt="" src={escudo} width={40} height={40} />
+                  ) : null}
+                  <p className="nome">{getMatchs(teams.casa)}</p>
+                </div>
+                <div className="last-games">
+                  <p className={indentifyGamesStatus(lastGames, 1).className}>
+                    {indentifyGamesStatus(lastGames, 1).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames, 2).className}>
+                    {indentifyGamesStatus(lastGames, 2).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames, 3).className}>
+                    {indentifyGamesStatus(lastGames, 3).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames, 4).className}>
+                    {indentifyGamesStatus(lastGames, 4).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames, 5).className}>
+                    {indentifyGamesStatus(lastGames, 5).status}
+                  </p>
+                  <p className="none">{">"}</p>
+                </div>
                 <div className="contentMatches">
                   <div className="double">
                     <p
@@ -200,7 +245,30 @@ export function Matches() {
                 </p>
               </div>
               <div className="card">
-                <p className="nome">{getMatchs(teams.fora)}</p>
+                <div className="team">
+                  <p className="nome">{getMatchs(teams.fora)}</p>
+                  {escudo2 ? (
+                    <Image alt="" src={escudo2} width={40} height={40} />
+                  ) : null}
+                </div>
+                <div className="last-games">
+                  <p className="none">{"<"}</p>
+                  <p className={indentifyGamesStatus(lastGames2, 1).className}>
+                    {indentifyGamesStatus(lastGames2, 1).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames2, 2).className}>
+                    {indentifyGamesStatus(lastGames2, 2).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames2, 3).className}>
+                    {indentifyGamesStatus(lastGames2, 3).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames2, 4).className}>
+                    {indentifyGamesStatus(lastGames2, 4).status}
+                  </p>
+                  <p className={indentifyGamesStatus(lastGames2, 5).className}>
+                    {indentifyGamesStatus(lastGames2, 5).status}
+                  </p>
+                </div>
                 <div className="contentMatches">
                   <div className="double">
                     <p

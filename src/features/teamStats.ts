@@ -6,6 +6,7 @@ interface IValue {
 export function returnAllStats(a: any, numberGames: number) {
   let countC = 0;
   let countF = 0;
+  let lastGames = [] as { id: number; status: string; value: number }[];
 
   let sgTotal = 0;
   let jogosTotal = 0;
@@ -51,6 +52,10 @@ export function returnAllStats(a: any, numberGames: number) {
   });
 
   a.casa.gols_sofridos.forEach((value: IValue) => {
+    if (value.id <= 5) {
+      lastGames.push({ id: value.id, status: "sofrido", value: value.value });
+    }
+
     if (value.id <= numberGames) {
       sgTotal -= value.value;
       golsSofridos += value.value;
@@ -87,6 +92,10 @@ export function returnAllStats(a: any, numberGames: number) {
   });
 
   a.fora.gols_sofridos.forEach((value: IValue) => {
+    if (value.id <= 5) {
+      lastGames.push({ id: value.id, status: "sofrido", value: value.value });
+    }
+
     if (value.id <= numberGames) {
       sgTotal -= value.value;
       golsSofridos += value.value;
@@ -101,6 +110,9 @@ export function returnAllStats(a: any, numberGames: number) {
   countF = 0;
 
   a.fora.gols_feitos.forEach((value: IValue) => {
+    if (value.id <= 5) {
+      lastGames.push({ id: value.id, status: "feito", value: value.value });
+    }
     if (value.id <= numberGames) {
       jogosTotal += 1;
       sgTotal += value.value;
@@ -119,6 +131,10 @@ export function returnAllStats(a: any, numberGames: number) {
   countF = 0;
 
   a.casa.gols_feitos.forEach((value: IValue) => {
+    if (value.id <= 5) {
+      lastGames.push({ id: value.id, status: "feito", value: value.value });
+    }
+
     if (value.id <= numberGames) {
       jogosTotal += 1;
       sgTotal += value.value;
@@ -154,6 +170,8 @@ export function returnAllStats(a: any, numberGames: number) {
   let mediaChutesF = chutesF / jogosChutesTotalF;
   let mediaCartoes = cartoes / jogosTotal;
   const clube = a.clube;
+  const escudo = a.escudo;
+
   const penaltisNumeros = penaltis / jogosTotal;
 
   return {
@@ -172,5 +190,7 @@ export function returnAllStats(a: any, numberGames: number) {
     sgTotalF,
     clube,
     penaltisNumeros,
+    escudo,
+    lastGames,
   };
 }
