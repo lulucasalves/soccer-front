@@ -62,21 +62,9 @@ export function Matches() {
             lastGames: lastGames2,
           } = returnAllStats(teamsfiltered2[0], numberGames);
 
-          const resultC =
-            (mediaGolsFeitos +
-              mediaGolsSofridos2 +
-              mediaGolsFeitosC +
-              mediaGolsSofridosF2) /
-              4 -
-            0.1;
+          const resultC = (mediaGolsFeitosC + mediaGolsSofridosF2) / 2;
 
-          const resultF =
-            (mediaGolsFeitos2 +
-              mediaGolsSofridos +
-              mediaGolsFeitosF2 +
-              mediaGolsSofridosC) /
-              4 -
-            0.1;
+          const resultF = (mediaGolsFeitosF2 + mediaGolsSofridosC) / 2;
 
           const sgcasav = (sgTotal + sgTotalC - sgTotal2 - sgTotalF2) / 2;
           const sgforav = (sgTotal2 + sgTotalF2 - sgTotal - sgTotalC) / 2;
