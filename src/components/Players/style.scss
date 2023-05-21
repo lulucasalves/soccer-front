@@ -1,0 +1,29 @@
+.players {
+    table {
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+
+        td {
+            font-weight: 400;
+            padding: 10px 20px;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+
+        .positive {
+            color: rgb(0, 165, 0)
+        }
+
+        .negative {
+            color: rgb(199, 0, 0)
+        }
+    }
+}

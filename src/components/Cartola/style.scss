@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 500px;
+    overflow: scroll;
+
+    .cartolaFilters {
+        display: flex;
+        gap: 30px;
+
+        select {
+            width: 100%;
+            text-align: center;
+            padding: 5px 10px;
+        }
+    }
+}

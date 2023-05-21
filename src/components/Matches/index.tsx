@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import * as data from "~/data/games.json";
 import { getMatchs } from "~/features/getMatchs";
@@ -9,7 +8,6 @@ import { IRootState } from "~/redux";
 export function Matches() {
   const { times, proximos_jogos } = data;
   const { numberGames } = useSelector((auth: IRootState) => auth.filters);
-  const [classification, setClassification] = useState(0);
 
   return (
     <div className="teams">
