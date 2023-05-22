@@ -9,11 +9,11 @@ export function Cartola() {
 
   useEffect(() => {
     (async () => {
-      await fetch("https://api.cartola.globo.com/atletas/mercado")
+      await fetch("https://api.cartola.globo.com/atletas/mercado", {
+        headers: { "Access-Control-Allow-Origin": "*" },
+      })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
-
           setData(data);
         });
     })();
