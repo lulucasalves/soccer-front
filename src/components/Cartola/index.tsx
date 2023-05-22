@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Menu, Players } from "~/components";
 
@@ -9,17 +10,13 @@ export function Cartola() {
 
   useEffect(() => {
     (async () => {
-      await fetch("https://api.cartola.globo.com/atletas/mercado", {
-        method: "GET", // ou qualquer outro método HTTP que você precise usar
-        mode: "cors",
-        headers: {
-          Origin: "https://soccer-analytics.vercel.app", // Substitua com a origem correta do seu script
-        },
-      })
-        .then((res) => res.json())
-        .then((data) => {
+      await axios
+        .get(`https://api.cartola.globo.com/atletas/mercado`)
+        .then(({ data }) => {
+          console.log(data);
           setData(data);
-        });
+        })
+        .catch((erro) => console.log(erro));
     })();
   }, []);
 
