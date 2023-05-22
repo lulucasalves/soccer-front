@@ -9,7 +9,7 @@ export function Cartola() {
 
   useEffect(() => {
     (async () => {
-      await fetch("https://api.cartola.globo.com/atletas/mercado")
+      await fetch("http://api.cartola.globo.com/atletas/mercado")
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
