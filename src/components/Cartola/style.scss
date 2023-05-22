@@ -14,6 +14,7 @@
     .cartolaFilters {
         display: flex;
         gap: 30px;
+        flex-wrap: wrap;
 
         select {
             width: 100%;

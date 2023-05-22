@@ -10,7 +10,11 @@ export function Cartola() {
   useEffect(() => {
     (async () => {
       await fetch("https://api.cartola.globo.com/atletas/mercado", {
-        headers: { "Access-Control-Allow-Origin": "*" },
+        method: "GET", // ou qualquer outro método HTTP que você precise usar
+        mode: "cors",
+        headers: {
+          Origin: "https://soccer-analytics.vercel.app", // Substitua com a origem correta do seu script
+        },
       })
         .then((res) => res.json())
         .then((data) => {
