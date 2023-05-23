@@ -33,10 +33,9 @@ export function Players({
         </thead>
 
         <tbody>
-          {data.atletas.length ? (
+          {data.atletas.length > 0 ? (
             data.atletas
               .filter((val) => {
-                console.log(filterTeam);
                 const status =
                   (filterPosition
                     ? Number(filterPosition) === val.posicao_id
@@ -44,6 +43,8 @@ export function Players({
                   (filterTeam ? Number(filterTeam) === val.clube_id : true);
 
                 if (status) return val;
+
+                return val;
               })
               .sort((a, b) => {
                 if (!sort.includes("-")) return b[sort] - a[sort];
@@ -69,9 +70,11 @@ export function Players({
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
 
+                  console.log(gato_mestre.media_minutos_jogados);
+
                   if (
                     jogos_num > 2 &&
-                    gato_mestre.media_minutos_jogados > 70 &&
+                    // gato_mestre.media_minutos_jogados > 70 &&
                     media_num > 2 &&
                     status_id === 7
                   )
@@ -132,7 +135,9 @@ export function Players({
                 }
               )
           ) : (
-            <tr></tr>
+            <tr>
+              <td>{data.atletas.length}</td>
+            </tr>
           )}
         </tbody>
       </table>

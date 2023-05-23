@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Menu, Players } from "~/components";
 import * as cartola from "~/data/cartola.json";
 
@@ -7,18 +6,20 @@ export function Cartola() {
   const [filterTeam, setFilterTeam] = useState("");
   const [filterPosition, setFilterPosition] = useState("");
   const [sort, setSort] = useState("media_num");
-  const [data, setData] = useState(cartola);
+  const data = cartola;
 
-  useEffect(() => {
-    (async () => {
-      await axios
-        .get(`https://api.cartola.globo.com/atletas/mercado`)
-        .then(({ data }) => {
-          // setData(data);
-        })
-        .catch((erro) => console.log(erro));
-    })();
-  }, []);
+  // useEffect(() => {
+  //   setData(cartola);
+  //   console.log(cartola);
+  //   // (async () => {
+  //   //   await axios
+  //   //     .get(`https://api.cartola.globo.com/atletas/mercado`)
+  //   //     .then(({ data }) => {
+  //   //       // setData(data);
+  //   //     })
+  //   //     .catch((erro) => console.log(erro));
+  //   // })();
+  // }, []);
 
   return (
     <section className="container">
