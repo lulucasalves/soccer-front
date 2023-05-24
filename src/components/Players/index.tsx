@@ -74,9 +74,9 @@ export function Players({
 
                   if (
                     jogos_num > 2 &&
-                    // gato_mestre.media_minutos_jogados > 70 &&
+                    gato_mestre.media_minutos_jogados > 70 &&
                     media_num > 2 &&
-                    status_id === 7
+                    (status_id === 7 || status_id === 2)
                   )
                     return (
                       <tr key={atleta_id}>
