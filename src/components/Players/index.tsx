@@ -43,8 +43,6 @@ export function Players({
                   (filterTeam ? Number(filterTeam) === val.clube_id : true);
 
                 if (status) return val;
-
-                return val;
               })
               .sort((a, b) => {
                 if (!sort.includes("-")) return b[sort] - a[sort];
