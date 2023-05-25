@@ -111,9 +111,9 @@ export function Matches() {
             <div key={key} className="cards">
               <div className="card">
                 <div className="team">
-                  {escudo ? (
+                  {/* {escudo ? (
                     <Image alt="" src={escudo} width={40} height={40} />
-                  ) : null}
+                  ) : null} */}
                   <p className="nome">{getMatchs(teams.casa)}</p>
                 </div>
                 <div className="last-games">
@@ -233,9 +233,9 @@ export function Matches() {
               <div className="card">
                 <div className="team">
                   <p className="nome">{getMatchs(teams.fora)}</p>
-                  {escudo2 ? (
+                  {/* {escudo2 ? (
                     <Image alt="" src={escudo2} width={40} height={40} />
-                  ) : null}
+                  ) : null} */}
                 </div>
                 <div className="last-games">
                   <p className="none">{"<"}</p>

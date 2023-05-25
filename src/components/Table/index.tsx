@@ -157,7 +157,7 @@ export function Table() {
                   <td>{i + 1}º</td>
                   <td>
                     <div>
-                      <Image alt="" src={escudo} width={20} height={20} />
+                      {/* <Image alt="" src={escudo} width={20} height={20} /> */}
                       <p>{clube}</p>
                     </div>
                   </td>
