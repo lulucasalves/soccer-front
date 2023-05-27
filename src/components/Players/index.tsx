@@ -71,7 +71,7 @@ export function Players({
                   console.log(gato_mestre.media_minutos_jogados);
 
                   if (
-                    jogos_num > 2 &&
+                    jogos_num > 3 &&
                     gato_mestre.media_minutos_jogados > 70 &&
                     media_num > 2 &&
                     (status_id === 7 || status_id === 2)
