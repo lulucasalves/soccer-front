@@ -25,9 +25,10 @@ export function Players({
             <th>Preço</th>
             <th>Média Geral</th>
             <th>Participações (gols)</th>
-            <th>Média Casa</th>
-            <th>Média Fora</th>
-            <th>Média Minutos Jogados</th>
+            <th>M Desarmes</th>
+            <th>M Casa</th>
+            <th>M Fora</th>
+            {/* <th>Média Minutos Jogados</th> */}
             <th>Mínimo para valorizar</th>
           </tr>
         </thead>
@@ -67,8 +68,7 @@ export function Players({
                 }) => {
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
-
-                  console.log(gato_mestre.media_minutos_jogados);
+                  console.log(scout);
 
                   if (
                     jogos_num > 3 &&
@@ -95,6 +95,11 @@ export function Players({
                             ? scout["G"]
                             : "0"}
                         </td>
+                        <td>
+                          {scout["DS"]
+                            ? Math.round(scout["DS"] / jogos_num)
+                            : 0}
+                        </td>
                         <td
                           className={
                             gato_mestre.media_pontos_mandante > 5
@@ -118,7 +123,7 @@ export function Players({
                             ? gato_mestre.media_pontos_visitante.toFixed(2)
                             : "-"}
                         </td>
-                        <td>{gato_mestre.media_minutos_jogados}</td>
+                        {/* <td>{gato_mestre.media_minutos_jogados}</td> */}
                         <td
                           className={
                             minimo_para_valorizar >= media_num
