@@ -68,11 +68,9 @@ export function Players({
                 }) => {
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
-                  console.log(scout);
 
                   if (
                     jogos_num > 3 &&
-                    gato_mestre.media_minutos_jogados > 70 &&
                     media_num > 2 &&
                     (status_id === 7 || status_id === 2)
                   )
@@ -97,7 +95,7 @@ export function Players({
                         </td>
                         <td>
                           {scout["DS"]
-                            ? Math.round(scout["DS"] / jogos_num)
+                            ? (scout["DS"] / jogos_num).toFixed(2)
                             : 0}
                         </td>
                         <td

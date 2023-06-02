@@ -209,7 +209,7 @@ export function Matches() {
               </div>
               <div className="card result">
                 <h2>
-                  {Math.round(resultC)}x{Math.round(resultF)}
+                  {resultC.toFixed(2)}x{resultF.toFixed(2)}
                 </h2>
                 <p
                   className={
