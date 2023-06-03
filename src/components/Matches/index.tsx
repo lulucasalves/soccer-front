@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useSelector } from "react-redux";
 import * as data from "~/data/games.json";
 import { getMatchs } from "~/features/getMatchs";
@@ -64,8 +63,8 @@ export function Matches() {
 
           const resultF = (mediaGolsFeitosF2 + mediaGolsSofridosC) / 2;
 
-          const sgcasav = (sgTotal + sgTotalC - sgTotal2 - sgTotalF2) / 2;
-          const sgforav = (sgTotal2 + sgTotalF2 - sgTotal - sgTotalC) / 2;
+          const sgcasav = sgTotal - sgTotal2;
+          const sgforav = sgTotal2 - sgTotal;
 
           const sgDiff = sgcasav >= sgforav ? sgcasav : sgforav;
 
