@@ -69,11 +69,7 @@ export function Players({
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
 
-                  if (
-                    jogos_num > 3 &&
-                    media_num > 2 &&
-                    (status_id === 7 || status_id === 2)
-                  )
+                  if (media_num > 3 && (status_id === 7 || status_id === 2))
                     return (
                       <tr key={atleta_id}>
                         <td>{clube.nome}</td>
