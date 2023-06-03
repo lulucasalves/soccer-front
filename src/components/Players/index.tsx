@@ -25,10 +25,10 @@ export function Players({
             <th>Preço</th>
             <th>Média Geral</th>
             <th>Participações (gols)</th>
-            <th>M Desarmes</th>
+            <th>M DS</th>
+            <th>M FD</th>
             <th>M Casa</th>
             <th>M Fora</th>
-            {/* <th>Média Minutos Jogados</th> */}
             <th>Mínimo para valorizar</th>
           </tr>
         </thead>
@@ -92,6 +92,11 @@ export function Players({
                         <td>
                           {scout["DS"]
                             ? (scout["DS"] / jogos_num).toFixed(2)
+                            : 0}
+                        </td>
+                        <td>
+                          {scout["FD"]
+                            ? (scout["FD"] / jogos_num).toFixed(2)
                             : 0}
                         </td>
                         <td
