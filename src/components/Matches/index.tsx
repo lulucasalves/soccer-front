@@ -63,6 +63,10 @@ export function Matches() {
 
           const resultF = (mediaGolsFeitosF2 + mediaGolsSofridosC) / 2;
 
+          const resultC2 = (mediaGolsFeitos + mediaGolsSofridos2) / 2;
+
+          const resultF2 = (mediaGolsFeitos2 + mediaGolsSofridos) / 2;
+
           const sgcasav = sgTotal - sgTotal2;
           const sgforav = sgTotal2 - sgTotal;
 
@@ -208,7 +212,10 @@ export function Matches() {
               </div>
               <div className="card result">
                 <h2>
-                  {resultC.toFixed(2)}x{resultF.toFixed(2)}
+                  Local {resultC.toFixed(2)}x{resultF.toFixed(2)}
+                </h2>
+                <h2>
+                  Geral {resultC2.toFixed(2)}x{resultF2.toFixed(2)}
                 </h2>
                 <p
                   className={
