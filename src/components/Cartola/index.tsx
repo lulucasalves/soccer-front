@@ -6,6 +6,7 @@ export function Cartola() {
   const [filterTeam, setFilterTeam] = useState("");
   const [filterPosition, setFilterPosition] = useState("");
   const [sort, setSort] = useState("media_num");
+  const [goodOptions, setGoodOptions] = useState("true");
   const data = cartola;
 
   // useEffect(() => {
@@ -27,6 +28,16 @@ export function Cartola() {
       <div className="content">
         {data.atletas.length && (
           <div className="cartolaFilters">
+            <select
+              value={goodOptions}
+              onChange={(e) => {
+                setGoodOptions(e.target.value);
+              }}
+            >
+              <option value="true">Recomendados</option>
+              <option value="false">Todos</option>
+            </select>
+
             <select
               value={sort}
               onChange={(e) => {
@@ -73,6 +84,7 @@ export function Cartola() {
           </div>
         )}
         <Players
+          goodOptions={goodOptions === "true" ? true : false}
           sort={sort}
           filterTeam={filterTeam}
           filterPosition={filterPosition}

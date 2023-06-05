@@ -5,11 +5,13 @@ export function Players({
   filterPosition,
   sort,
   data,
+  goodOptions,
 }: {
   filterTeam: string;
   filterPosition: string;
   sort: string;
   data: any;
+  goodOptions: boolean;
 }) {
   const { times } = dataA;
   return (
@@ -75,7 +77,9 @@ export function Players({
                   )[0];
 
                   let chanceGol =
-                    teamfiltered.faz === 0
+                    posicao_id < 2
+                      ? "-"
+                      : teamfiltered.faz === 0
                       ? "Baixa"
                       : teamfiltered.faz === 1
                       ? "Media"
@@ -92,7 +96,12 @@ export function Players({
                       ? "Média"
                       : "Baixa";
                   0;
-                  if (media_num > 2 && status_id === 7)
+
+                  const boaopcao = goodOptions
+                    ? chanceSG.includes("Alta") || chanceGol.includes("Alta")
+                    : true;
+
+                  if (media_num > 2 && status_id === 7 && boaopcao)
                     return (
                       <tr key={atleta_id}>
                         <td>{clube.abreviacao}</td>
