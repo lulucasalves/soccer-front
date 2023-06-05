@@ -31,6 +31,8 @@ export function Matches() {
             );
           });
 
+          const result = teams.result;
+
           const {
             sgTotal,
             mediaGolsFeitos,
@@ -119,7 +121,7 @@ export function Matches() {
                   ) : null} */}
                   <p className="nome">{getMatchs(teams.casa)}</p>
                 </div>
-                <div className="last-games">
+                {/* <div className="last-games">
                   <p className={indentifyGamesStatus(lastGames, 1).className}>
                     {indentifyGamesStatus(lastGames, 1).status}
                   </p>
@@ -136,7 +138,7 @@ export function Matches() {
                     {indentifyGamesStatus(lastGames, 5).status}
                   </p>
                   <p className="none">{">"}</p>
-                </div>
+                </div> */}
                 <div className="contentMatches">
                   <div className="double">
                     <p
@@ -211,9 +213,7 @@ export function Matches() {
                 </div>
               </div>
               <div className="card result">
-                <h2>
-                  Local {Math.round(resultC)}x{Math.round(resultF)}
-                </h2>
+                <h2>{result}</h2>
                 <p
                   className={
                     sgDiff >= 1.9 * numberGames ? "positive" : "negative"
@@ -240,7 +240,7 @@ export function Matches() {
                     <Image alt="" src={escudo2} width={40} height={40} />
                   ) : null} */}
                 </div>
-                <div className="last-games">
+                {/* <div className="last-games">
                   <p className="none">{"<"}</p>
                   <p className={indentifyGamesStatus(lastGames2, 1).className}>
                     {indentifyGamesStatus(lastGames2, 1).status}
@@ -257,7 +257,7 @@ export function Matches() {
                   <p className={indentifyGamesStatus(lastGames2, 5).className}>
                     {indentifyGamesStatus(lastGames2, 5).status}
                   </p>
-                </div>
+                </div> */}
                 <div className="contentMatches">
                   <div className="double">
                     <p

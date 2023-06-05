@@ -3945,15 +3945,19 @@
     }
   ],
   "proximos_jogos": [
-    { "casa": " Fortaleza ", "fora": " Bahia " },
-    { "casa": " América-MG ", "fora": " Corinthians " },
-    { "casa": " Cruzeiro ", "fora": " Atlético-MG " },
-    { "casa": " Athletico Paranaense ", "fora": " Botafogo " },
-    { "casa": " Santos ", "fora": " Internacional " },
-    { "casa": " Fluminense ", "fora": " RB Bragantino " },
-    { "casa": " Grêmio ", "fora": " São Paulo " },
-    { "casa": " Goiás ", "fora": " Cuiabá " },
-    { "casa": " Palmeiras ", "fora": " Coritiba " },
-    { "casa": " Vasco da Gama ", "fora": " Flamengo " }
+    { "casa": " Fortaleza ", "fora": " Bahia ", "result": "1x1" },
+    { "casa": " América-MG ", "fora": " Corinthians ", "result": "1x0" },
+    { "casa": " Cruzeiro ", "fora": " Atlético-MG ", "result": "1x1" },
+    {
+      "casa": " Athletico Paranaense ",
+      "fora": " Botafogo ",
+      "result": "1x1"
+    },
+    { "casa": " Santos ", "fora": " Internacional ", "result": "1x1" },
+    { "casa": " Fluminense ", "fora": " RB Bragantino ", "result": "1x2" },
+    { "casa": " Grêmio ", "fora": " São Paulo ", "result": "1x1" },
+    { "casa": " Goiás ", "fora": " Cuiabá ", "result": "1x0" },
+    { "casa": " Palmeiras ", "fora": " Coritiba ", "result": "2x0" },
+    { "casa": " Vasco da Gama ", "fora": " Flamengo ", "result": "0x1" }
   ]
 }
