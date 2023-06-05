@@ -45,6 +45,8 @@ export function Matches() {
             penaltisNumeros,
             escudo,
             lastGames,
+            faz,
+            sofre,
           } = returnAllStats(teamsfiltered[0], numberGames);
 
           const {
@@ -213,7 +215,7 @@ export function Matches() {
                 </div>
               </div>
               <div className="card result">
-                <h2>{result}</h2>
+                <h2>{`${faz}x${sofre}`}</h2>
                 <p
                   className={
                     sgDiff >= 1.9 * numberGames ? "positive" : "negative"

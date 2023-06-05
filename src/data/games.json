@@ -1,6 +1,9 @@
 {
   "times": [
     {
+      "id": 275,
+      "faz": 2,
+      "sofre": 0,
       "clube": "Palmeiras",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1693.png&w=32&q=75",
       "casa": {
@@ -346,6 +349,9 @@
       ]
     },
     {
+      "id": 266,
+      "faz": 1,
+      "sofre": 2,
       "clube": "Fluminense",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1666.png&w=32&q=75",
       "casa": {
@@ -505,6 +511,9 @@
       "ultimos_batedores_de_penalti": []
     },
     {
+      "id": 263,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Botafogo",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1792.png&w=32&q=75",
       "casa": {
@@ -666,6 +675,9 @@
       ]
     },
     {
+      "id": 293,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Paranaense",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1862.png&w=32&q=75",
       "casa": {
@@ -830,6 +842,9 @@
       "ultimos_batedores_de_penalti": []
     },
     {
+      "id": 283,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Cruzeiro",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1794.png&w=32&q=75",
       "casa": {
@@ -999,6 +1014,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 6, "value": "Bruno Rodrigues" }]
     },
     {
+      "id": 356,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Fortaleza",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F4831.png&w=32&q=75",
       "casa": {
@@ -1393,6 +1411,9 @@
       ]
     },
     {
+      "id": 276,
+      "faz": 1,
+      "sofre": 1,
       "clube": "São Paulo",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1677.png&w=32&q=75",
       "casa": {
@@ -1555,6 +1576,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 8, "value": "Luciano" }]
     },
     {
+      "id": 282,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Atl. Mineiro",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1683.png&w=32&q=75",
       "casa": {
@@ -1725,6 +1749,9 @@
       ]
     },
     {
+      "id": 277,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Santos",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1798.png&w=32&q=75",
       "casa": {
@@ -1885,6 +1912,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 10, "value": "Marcos Leonardo" }]
     },
     {
+      "id": 284,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Grêmio",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1670.png&w=32&q=75",
       "casa": {
@@ -2045,6 +2075,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 7, "value": "Franco Cristaldo" }]
     },
     {
+      "id": 285,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Internacional",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1799.png&w=32&q=75",
       "casa": {
@@ -2219,6 +2252,9 @@
       ]
     },
     {
+      "id": 262,
+      "faz": 1,
+      "sofre": 0,
       "clube": "Flamengo",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1802.png&w=32&q=75",
       "casa": {
@@ -2666,6 +2702,9 @@
       ]
     },
     {
+      "id": 265,
+      "faz": 1,
+      "sofre": 1,
       "clube": "Bahia",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1795.png&w=32&q=75",
       "casa": {
@@ -2825,6 +2864,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 9, "value": "Vítor Jacaré" }]
     },
     {
+      "id": 267,
+      "faz": 0,
+      "sofre": 1,
       "clube": "Vasco",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1790.png&w=32&q=75",
       "casa": {
@@ -2984,6 +3026,9 @@
       "ultimos_batedores_de_penalti": []
     },
     {
+      "id": 280,
+      "faz": 2,
+      "sofre": 1,
       "clube": "RB Bragantino",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F4734.png&w=32&q=75",
       "casa": {
@@ -3143,6 +3188,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 10, "value": "Eduardo Sasha" }]
     },
     {
+      "id": 264,
+      "faz": 0,
+      "sofre": 1,
       "clube": "Corinthians",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1649.png&w=32&q=75",
       "casa": {
@@ -3294,6 +3342,9 @@
       "ultimos_batedores_de_penalti": [{ "id": 6, "value": "Róger Guedes" }]
     },
     {
+      "id": 1371,
+      "faz": 0,
+      "sofre": 1,
       "clube": "Cuiabá",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F2704.png&w=32&q=75",
       "casa": {
@@ -3444,6 +3495,9 @@
       "ultimos_batedores_de_penalti": []
     },
     {
+      "id": 290,
+      "faz": 1,
+      "sofre": 0,
       "clube": "Goiás",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1863.png&w=32&q=75",
       "casa": {
@@ -3609,6 +3663,9 @@
       ]
     },
     {
+      "id": 294,
+      "faz": 0,
+      "sofre": 2,
       "clube": "Coritiba",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1796.png&w=32&q=75",
       "casa": {
@@ -3770,6 +3827,9 @@
       ]
     },
     {
+      "id": 327,
+      "faz": 1,
+      "sofre": 0,
       "clube": "América MG",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F6618.png&w=32&q=75",
       "casa": {
@@ -3945,19 +4005,45 @@
     }
   ],
   "proximos_jogos": [
-    { "casa": " Fortaleza ", "fora": " Bahia ", "result": "1x1" },
-    { "casa": " América-MG ", "fora": " Corinthians ", "result": "1x0" },
-    { "casa": " Cruzeiro ", "fora": " Atlético-MG ", "result": "1x1" },
+    {
+      "casa": " Fortaleza ",
+      "fora": " Bahia "
+    },
+    {
+      "casa": " América-MG ",
+      "fora": " Corinthians "
+    },
+    {
+      "casa": " Cruzeiro ",
+      "fora": " Atlético-MG "
+    },
     {
       "casa": " Athletico Paranaense ",
-      "fora": " Botafogo ",
-      "result": "1x1"
+      "fora": " Botafogo "
     },
-    { "casa": " Santos ", "fora": " Internacional ", "result": "1x1" },
-    { "casa": " Fluminense ", "fora": " RB Bragantino ", "result": "1x2" },
-    { "casa": " Grêmio ", "fora": " São Paulo ", "result": "1x1" },
-    { "casa": " Goiás ", "fora": " Cuiabá ", "result": "1x0" },
-    { "casa": " Palmeiras ", "fora": " Coritiba ", "result": "2x0" },
-    { "casa": " Vasco da Gama ", "fora": " Flamengo ", "result": "0x1" }
+    {
+      "casa": " Santos ",
+      "fora": " Internacional "
+    },
+    {
+      "casa": " Fluminense ",
+      "fora": " RB Bragantino "
+    },
+    {
+      "casa": " Grêmio ",
+      "fora": " São Paulo "
+    },
+    {
+      "casa": " Goiás ",
+      "fora": " Cuiabá "
+    },
+    {
+      "casa": " Palmeiras ",
+      "fora": " Coritiba "
+    },
+    {
+      "casa": " Vasco da Gama ",
+      "fora": " Flamengo "
+    }
   ]
 }

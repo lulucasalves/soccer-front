@@ -171,6 +171,9 @@ export function returnAllStats(a: any, numberGames: number) {
   let mediaCartoes = cartoes / jogosTotal;
   const clube = a.clube;
   const escudo = a.escudo;
+  const faz = a.faz;
+  const sofre = a.sofre;
+  const id = a.id;
 
   const penaltisNumeros = penaltis / jogosTotal;
 
@@ -192,5 +195,8 @@ export function returnAllStats(a: any, numberGames: number) {
     penaltisNumeros,
     escudo,
     lastGames,
+    faz,
+    sofre,
+    id,
   };
 }

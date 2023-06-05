@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import * as dataA from "~/data/games.json";
 
 export function Players({
   filterTeam,
@@ -11,6 +11,7 @@ export function Players({
   sort: string;
   data: any;
 }) {
+  const { times } = dataA;
   return (
     <div className="players">
       Todos Jogadores tem no mínimo média 3, participação em 3 jogos e 70
@@ -22,14 +23,15 @@ export function Players({
             <th>Posição</th>
             <th>Jogador</th>
             <th>Jogos</th>
-            <th>Preço</th>
-            <th>Média Geral</th>
-            <th>Participações (gols)</th>
-            <th>M DS</th>
-            <th>M FD</th>
-            <th>M Casa</th>
-            <th>M Fora</th>
-            <th>Mínimo para valorizar</th>
+            <th title="Média geral">MG</th>
+            <th title="Participações em gols">PG</th>
+            <th title="Média desarmes">M DS</th>
+            <th title="Média finalizações defendidas">M FD</th>
+            <th title="Média em casa">MC</th>
+            <th title="Média fora de casa">MF</th>
+            <th title="Mínimo para valorizar">MV</th>
+            <th title="Chance de gols">C G</th>
+            <th title="Chance de não sofrer gol">C SG</th>
           </tr>
         </thead>
 
@@ -63,24 +65,40 @@ export function Players({
                   minimo_para_valorizar,
                   posicao_id,
                   status_id,
-                  preco_num,
                   scout,
                 }) => {
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
 
-                  if (
-                    media_num > 3 &&
-                    (status_id === 7 || status_id === 2) &&
-                    jogos_num > 3
-                  )
+                  const teamfiltered = times.filter(
+                    (val) => val.id === clube_id
+                  )[0];
+
+                  let chanceGol =
+                    teamfiltered.faz === 0
+                      ? "Baixa"
+                      : teamfiltered.faz === 1
+                      ? "Media"
+                      : teamfiltered.faz === 2
+                      ? "Alta"
+                      : "Muito Alta";
+
+                  let chanceSG =
+                    posicao_id > 3
+                      ? "-"
+                      : teamfiltered.sofre === 0
+                      ? "Alta"
+                      : teamfiltered.sofre === 1
+                      ? "Média"
+                      : "Baixa";
+                  0;
+                  if (media_num > 2 && status_id === 7)
                     return (
                       <tr key={atleta_id}>
-                        <td>{clube.nome}</td>
+                        <td>{clube.abreviacao}</td>
                         <td>{posicao.abreviacao.toUpperCase()}</td>
                         <td>{apelido}</td>
                         <td>{jogos_num}</td>
-                        <td>C$ {preco_num}</td>
                         <td className={media_num > 5 ? "positive" : "negative"}>
                           {media_num}
                         </td>
@@ -136,6 +154,8 @@ export function Players({
                         >
                           {minimo_para_valorizar}
                         </td>
+                        <td>{chanceGol}</td>
+                        <td>{chanceSG}</td>
                       </tr>
                     );
                 }
