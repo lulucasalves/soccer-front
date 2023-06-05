@@ -212,10 +212,7 @@ export function Matches() {
               </div>
               <div className="card result">
                 <h2>
-                  Local {resultC.toFixed(2)}x{resultF.toFixed(2)}
-                </h2>
-                <h2>
-                  Geral {resultC2.toFixed(2)}x{resultF2.toFixed(2)}
+                  Local {Math.round(resultC)}x{Math.round(resultF)}
                 </h2>
                 <p
                   className={
