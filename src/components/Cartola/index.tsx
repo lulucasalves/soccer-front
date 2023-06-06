@@ -51,6 +51,9 @@ export function Cartola() {
               <option value="gato_mestre-media_pontos_visitante">
                 Média Visitante
               </option>
+              <option value='minimo_para_valorizar' >
+                Mínimo para Valorizar
+              </option>
             </select>
             <select
               value={filterPosition}
