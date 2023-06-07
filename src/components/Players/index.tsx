@@ -98,7 +98,9 @@ export function Players({
                   0;
 
                   const boaopcao = goodOptions
-                    ? chanceSG.includes("Alta") || chanceGol.includes("Alta")
+                    ? chanceSG.includes("Alta") ||
+                      chanceGol.includes("Alta") ||
+                      media_num > 8
                     : true;
 
                   if (media_num > 2 && status_id === 7 && boaopcao)
