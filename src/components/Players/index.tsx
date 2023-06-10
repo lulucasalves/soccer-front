@@ -103,7 +103,11 @@ export function Players({
                       media_num > 8
                     : true;
 
-                  if (media_num > 2 && status_id === 7 && boaopcao)
+                  if (
+                    media_num > 2 &&
+                    (status_id === 7 || status_id === 2) &&
+                    boaopcao
+                  )
                     return (
                       <tr key={atleta_id}>
                         <td>{clube.abreviacao}</td>
