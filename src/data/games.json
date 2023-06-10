@@ -374,7 +374,7 @@
     {
       "id": 266,
       "sofre": 1,
-      "faz": 0,
+      "faz": 1,
       "clube": "Fluminense",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1666.png&w=32&q=75",
       "casa": {
@@ -2038,7 +2038,7 @@
     {
       "id": 277,
       "sofre": 1,
-      "faz": 0,
+      "faz": 1,
       "clube": "Santos",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1798.png&w=32&q=75",
       "casa": {
@@ -2199,7 +2199,7 @@
     {
       "id": 284,
       "sofre": 2,
-      "faz": 0,
+      "faz": 1,
       "clube": "Grêmio",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1670.png&w=32&q=75",
       "casa": {
@@ -2536,7 +2536,7 @@
     },
     {
       "id": 262,
-      "sofre": 0,
+      "sofre": 1,
       "faz": 2,
       "clube": "Flamengo",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1802.png&w=32&q=75",
@@ -3320,7 +3320,7 @@
     {
       "id": 264,
       "sofre": 1,
-      "faz": 2,
+      "faz": 1,
       "clube": "Corinthians",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1649.png&w=32&q=75",
       "casa": {
@@ -3452,7 +3452,7 @@
     },
     {
       "id": 1371,
-      "sofre": 2,
+      "sofre": 1,
       "faz": 1,
       "clube": "Cuiabá",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F2704.png&w=32&q=75",
@@ -3654,7 +3654,7 @@
     },
     {
       "id": 290,
-      "sofre": 0,
+      "sofre": 1,
       "faz": 1,
       "clube": "Goiás",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1863.png&w=32&q=75",
@@ -3820,7 +3820,7 @@
     },
     {
       "id": 294,
-      "sofre": 0,
+      "sofre": 1,
       "faz": 1,
       "clube": "Coritiba",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1796.png&w=32&q=75",
