@@ -1140,7 +1140,7 @@
     {
       "id": 282,
       "sofre": 1,
-      "faz": 1,
+      "faz": 2,
       "clube": "Atl. Mineiro",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1683.png&w=32&q=75",
       "casa": {
@@ -3671,7 +3671,7 @@
     },
     {
       "id": 327,
-      "sofre": 1,
+      "sofre": 2,
       "faz": 1,
       "clube": "América MG",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F6618.png&w=32&q=75",
