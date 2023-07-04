@@ -40,7 +40,7 @@ export function Players({
         <tbody>
           {data.atletas.length > 0 ? (
             data.atletas
-              .filter((val) => {
+              .filter((val: { posicao_id: Number; clube_id: Number }) => {
                 const status =
                   (filterPosition
                     ? Number(filterPosition) === val.posicao_id
@@ -49,7 +49,7 @@ export function Players({
 
                 if (status) return val;
               })
-              .sort((a, b) => {
+              .sort((a: any, b: any) => {
                 if (!sort.includes("-")) return b[sort] - a[sort];
                 else {
                   const [sort1, sort2] = sort.split("-");
@@ -68,7 +68,7 @@ export function Players({
                   posicao_id,
                   status_id,
                   scout,
-                }) => {
+                }: any) => {
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
 
@@ -97,11 +97,19 @@ export function Players({
                       : "Baixa";
                   0;
 
-                  const boaopcao = goodOptions
-                    ? chanceSG.includes("Alta") ||
-                      chanceGol.includes("Alta") ||
-                      media_num > 8
-                    : true;
+                  let boaopcao = false;
+
+                  if (posicao_id < 4) {
+                    boaopcao = goodOptions
+                      ? chanceSG.includes("Alta") ||
+                        chanceGol.includes("Alta") ||
+                        media_num > 8
+                      : true;
+                  } else {
+                    boaopcao = goodOptions
+                      ? chanceSG.includes("Alta") || media_num > 8
+                      : true;
+                  }
 
                   if (
                     media_num > 2 &&
@@ -114,7 +122,7 @@ export function Players({
                         <td>{posicao.abreviacao.toUpperCase()}</td>
                         <td>{apelido}</td>
                         <td>{jogos_num}</td>
-                        <td className={media_num > 5 ? "positive" : "negative"}>
+                        <td className={media_num > 4 ? "positive" : "negative"}>
                           {media_num}
                         </td>
                         <td>
@@ -138,7 +146,7 @@ export function Players({
                         </td>
                         <td
                           className={
-                            gato_mestre.media_pontos_mandante > 5
+                            gato_mestre.media_pontos_mandante > 4
                               ? "positive"
                               : "negative"
                           }
@@ -149,7 +157,7 @@ export function Players({
                         </td>
                         <td
                           className={
-                            gato_mestre.media_pontos_visitante > 5
+                            gato_mestre.media_pontos_visitante > 4
                               ? "positive"
                               : "negative"
                           }
