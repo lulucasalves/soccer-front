@@ -97,24 +97,24 @@ export function Players({
                       : "Baixa";
                   0;
 
-                  let boaopcao = false;
-
-                  if (posicao_id < 4) {
-                    boaopcao = goodOptions
-                      ? chanceSG.includes("Alta") ||
-                        chanceGol.includes("Alta") ||
-                        media_num > 8
-                      : true;
-                  } else {
-                    boaopcao = goodOptions
-                      ? chanceSG.includes("Alta") || media_num > 8
-                      : true;
+                  function boaOpcao() {
+                    if (posicao_id < 4) {
+                      return goodOptions
+                        ? chanceSG === "Alta" ||
+                            chanceGol === "Alta" ||
+                            media_num > 8
+                        : true;
+                    } else {
+                      return goodOptions
+                        ? chanceSG === "Alta" || media_num > 8
+                        : true;
+                    }
                   }
 
                   if (
                     media_num > 2 &&
                     (status_id === 7 || status_id === 2) &&
-                    boaopcao
+                    boaOpcao()
                   )
                     return (
                       <tr key={atleta_id}>
