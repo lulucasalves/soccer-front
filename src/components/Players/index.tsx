@@ -98,17 +98,11 @@ export function Players({
                   0;
 
                   function boaOpcao() {
-                    if (posicao_id < 4) {
-                      return goodOptions
-                        ? chanceSG === "Alta" ||
-                            chanceGol === "Alta" ||
-                            media_num > 8
-                        : true;
-                    } else {
-                      return goodOptions
-                        ? chanceSG === "Alta" || media_num > 8
-                        : true;
-                    }
+                    return goodOptions
+                      ? chanceSG === "Alta" ||
+                          chanceGol === "Alta" ||
+                          media_num > 8
+                      : true;
                   }
 
                   if (
