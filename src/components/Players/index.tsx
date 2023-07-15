@@ -28,7 +28,7 @@ export function Players({
             <th title="Média geral">MG</th>
             <th title="Participações em gols">PG</th>
             <th title="Média desarmes">M DS</th>
-            <th title="Média finalizações defendidas">M FD</th>
+            <th title="Média de finalizações">M F</th>
             <th title="Média em casa">MC</th>
             <th title="Média fora de casa">MF</th>
             <th title="Mínimo para valorizar">MV</th>
@@ -134,9 +134,15 @@ export function Players({
                             : 0}
                         </td>
                         <td>
-                          {scout["FD"]
+                          {scout["FD"] && scout["FF"]
+                            ? ((scout["FD"] + scout["FF"]) / jogos_num).toFixed(
+                                2
+                              )
+                            : scout["FD"]
                             ? (scout["FD"] / jogos_num).toFixed(2)
-                            : 0}
+                            : scout["FF"]
+                            ? (scout["FF"] / jogos_num).toFixed(2)
+                            : "0"}
                         </td>
                         <td
                           className={
