@@ -29,6 +29,7 @@ export function Players({
             <th title="Participações em gols">PG</th>
             <th title="Média desarmes">M DS</th>
             <th title="Média de finalizações">M F</th>
+            <th title="Tempo jogado">T</th>
             <th title="Média em casa">MC</th>
             <th title="Média fora de casa">MF</th>
             <th title="Mínimo para valorizar">MV</th>
@@ -144,6 +145,7 @@ export function Players({
                             ? (scout["FF"] / jogos_num).toFixed(2)
                             : "0"}
                         </td>
+                        <td>{gato_mestre.minutos_jogados}</td>
                         <td
                           className={
                             gato_mestre.media_pontos_mandante > 4

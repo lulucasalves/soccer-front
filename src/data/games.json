@@ -1577,7 +1577,7 @@
     },
     {
       "id": 285,
-      "sofre": 3,
+      "sofre": 2,
       "faz": 1,
       "clube": "Internacional",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F1799.png&w=32&q=75",
@@ -2201,7 +2201,7 @@
     {
       "id": 280,
       "sofre": 1,
-      "faz": 3,
+      "faz": 2,
       "clube": "RB Bragantino",
       "escudo": "https://soccer-analytics.vercel.app/_next/image?url=https%3A%2F%2Fimage-service.onefootball.com%2Ftransform%3Fw%3D82%26h%3D82%26dpr%3D2%26image%3Dhttps%25253A%25252F%25252Fimages.onefootball.com%25252Ficons%25252Fteams%25252F164%25252F4734.png&w=32&q=75",
       "casa": {
@@ -2218,14 +2218,14 @@
         ],
         "gols_feitos": [
           { "id": 2, "value": 0 },
-          { "id": 4, "value": 7 },
+          { "id": 4, "value": 4 },
           { "id": 5, "value": 2 },
           { "id": 6, "value": 4 },
           { "id": 10, "value": 2 }
         ],
         "gols_sofridos": [
           { "id": 2, "value": 0 },
-          { "id": 4, "value": 1 },
+          { "id": 4, "value": 0 },
           { "id": 5, "value": 0 },
           { "id": 6, "value": 0 },
           { "id": 10, "value": 0 }
