@@ -100,8 +100,8 @@ export function Players({
 
                   function boaOpcao() {
                     return goodOptions
-                      ? chanceSG === "Alta" ||
-                          chanceGol === "Alta" ||
+                      ? chanceSG.toLowerCase().includes("alta") ||
+                          chanceSG.toLowerCase().includes("alta") ||
                           media_num > 8
                       : true;
                   }
