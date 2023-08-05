@@ -26,6 +26,7 @@ export function Players({
             <th>Jogador</th>
             <th>Jogos</th>
             <th title="Média geral">MG</th>
+            <th title="Média geral das últimas 5 partidas">MG5</th>
             <th title="Participações em gols">PG</th>
             <th title="Média desarmes">M DS</th>
             <th title="Média de finalizações">M F</th>
@@ -41,6 +42,12 @@ export function Players({
         <tbody>
           {data.atletas.length > 0 ? (
             data.atletas
+              .map((val) => {
+                if (val.pontuacao5) return val;
+                else {
+                  return { ...val, pontuacao5: 0 };
+                }
+              })
               .filter((val: { posicao_id: Number; clube_id: Number }) => {
                 const status =
                   (filterPosition
@@ -69,6 +76,7 @@ export function Players({
                   posicao_id,
                   status_id,
                   scout,
+                  pontuacao5,
                 }: any) => {
                   const clube = data.clubes[clube_id];
                   const posicao = data.posicoes[posicao_id];
@@ -100,7 +108,7 @@ export function Players({
 
                   function boaOpcao() {
                     return goodOptions
-                      ? chanceSG.toLowerCase().includes("alta") ||
+                      ? chanceGol.toLowerCase().includes("alta") ||
                           chanceSG.toLowerCase().includes("alta") ||
                           media_num > 8
                       : true;
@@ -119,6 +127,13 @@ export function Players({
                         <td>{jogos_num}</td>
                         <td className={media_num > 4 ? "positive" : "negative"}>
                           {media_num}
+                        </td>
+                        <td
+                          className={pontuacao5 > 4 ? "positive" : "negative"}
+                        >
+                          {pontuacao5 && jogos_num > 4
+                            ? pontuacao5.toFixed(2)
+                            : 0}
                         </td>
                         <td>
                           {scout["A"] && scout["G"]
