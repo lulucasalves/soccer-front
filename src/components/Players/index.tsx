@@ -55,11 +55,26 @@ export function Players({
                     : true) &&
                   (filterTeam ? Number(filterTeam) === val.clube_id : true);
 
-                if (status) return val;
+                if (sort.includes("media-") && status) {
+                  const [sort1, sort2, sort3, sort4] = sort.split("-");
+                  console.log(sort3);
+
+                  if (val[sort1][sort2][sort3][sort4] > 0) return val;
+                } else if (status) {
+                  return val;
+                }
               })
               .sort((a: any, b: any) => {
                 if (!sort.includes("-")) return b[sort] - a[sort];
-                else {
+                else if (sort.includes("media-")) {
+                  const [sort1, sort2, sort3, sort4] = sort.split("-");
+                  console.log(sort3);
+
+                  return (
+                    b[sort1][sort2][sort3][sort4] -
+                    a[sort1][sort2][sort3][sort4]
+                  );
+                } else {
                   const [sort1, sort2] = sort.split("-");
                   return b[sort1][sort2] - a[sort1][sort2];
                 }

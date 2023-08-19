@@ -54,6 +54,9 @@ export function Cartola() {
               <option value="minimo_para_valorizar">
                 Mínimo para Valorizar
               </option>
+              <option value="gato_mestre-scouts-media-DS">
+                Média em desarmes
+              </option>
               <option value="pontuacao5">Média últimos 5 jogos</option>
             </select>
             <select

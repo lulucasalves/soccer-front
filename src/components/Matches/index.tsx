@@ -45,8 +45,6 @@ export function Matches() {
             penaltisNumeros,
             escudo,
             lastGames,
-            faz,
-            sofre,
           } = returnAllStats(teamsfiltered[0], numberGames);
 
           const {
@@ -70,6 +68,9 @@ export function Matches() {
           const resultC2 = (mediaGolsFeitos + mediaGolsSofridos2) / 2;
 
           const resultF2 = (mediaGolsFeitos2 + mediaGolsSofridos) / 2;
+
+          const faz = ((resultC + resultC2) / 2).toFixed(1);
+          const sofre = ((resultF + resultF2) / 2).toFixed(1);
 
           const sgcasav = sgTotal - sgTotal2;
           const sgforav = sgTotal2 - sgTotal;
@@ -98,20 +99,25 @@ export function Matches() {
               : penaltisNumeros2;
 
           function indentifyGamesStatus(lastGames: any, id: number) {
-            const gameS = lastGames.filter(
-              (val: any) => val.id === id && val.status === "sofrido"
-            )[0];
-            const gameF = lastGames.filter(
-              (val: any) => val.id === id && val.status === "feito"
-            )[0];
+            try {
+              const gameS = lastGames.filter(
+                (val: any) => val.id === id && val.status === "sofrido"
+              )[0];
 
-            if (gameS.value > gameF.value) {
-              return { className: "red", status: "D" };
-            } else if (gameS.value < gameF.value) {
-              return { className: "green", status: "V" };
+              const gameF = lastGames.filter(
+                (val: any) => val.id === id && val.status === "feito"
+              )[0];
+
+              if (gameS.value > gameF.value) {
+                return { className: "red", status: "D" };
+              } else if (gameS.value < gameF.value) {
+                return { className: "green", status: "V" };
+              }
+
+              return { className: "", status: "E" };
+            } catch (err) {
+              return { className: "", status: "?" };
             }
-
-            return { className: "", status: "E" };
           }
 
           return (
@@ -123,7 +129,7 @@ export function Matches() {
                   ) : null} */}
                   <p className="nome">{getMatchs(teams.casa)}</p>
                 </div>
-                {/* <div className="last-games">
+                <div className="last-games">
                   <p className={indentifyGamesStatus(lastGames, 1).className}>
                     {indentifyGamesStatus(lastGames, 1).status}
                   </p>
@@ -136,11 +142,13 @@ export function Matches() {
                   <p className={indentifyGamesStatus(lastGames, 4).className}>
                     {indentifyGamesStatus(lastGames, 4).status}
                   </p>
-                  <p className={indentifyGamesStatus(lastGames, 5).className}>
-                    {indentifyGamesStatus(lastGames, 5).status}
-                  </p>
+                  {indentifyGamesStatus(lastGames, 5).status !== "?" ? (
+                    <p className={indentifyGamesStatus(lastGames, 5).className}>
+                      {indentifyGamesStatus(lastGames, 5).status}
+                    </p>
+                  ) : null}
                   <p className="none">{">"}</p>
-                </div> */}
+                </div>
                 <div className="contentMatches">
                   <div className="double">
                     <p
@@ -242,7 +250,7 @@ export function Matches() {
                     <Image alt="" src={escudo2} width={40} height={40} />
                   ) : null} */}
                 </div>
-                {/* <div className="last-games">
+                <div className="last-games">
                   <p className="none">{"<"}</p>
                   <p className={indentifyGamesStatus(lastGames2, 1).className}>
                     {indentifyGamesStatus(lastGames2, 1).status}
@@ -259,7 +267,7 @@ export function Matches() {
                   <p className={indentifyGamesStatus(lastGames2, 5).className}>
                     {indentifyGamesStatus(lastGames2, 5).status}
                   </p>
-                </div> */}
+                </div>
                 <div className="contentMatches">
                   <div className="double">
                     <p
